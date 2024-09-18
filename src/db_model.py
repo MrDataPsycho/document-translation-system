@@ -39,5 +39,6 @@ def create_database():
     Base.metadata.create_all(engine)
 
 if __name__ == '__main__':
+    """Example of Execution: python src/db_model.py"""
     create_database()
     print("Database and tables created successfully.")

@@ -40,3 +40,7 @@ Available Commands:
 - First install all the libraries with `pip install -r requirements.txt`
 - Launch backend `python server.py`
 - Launch frontend `streamlit run frontend/app.py`
+
+## Project Initialization Step
+- First run `python src/db_model.py` to initialize the database using SQLAlchemy python model under the hood it runs sql queries `CREATE TABLE` to create the databases which reduce the need of writting sql code and we can generate sql code using python.
+- Create a user for example: PYTHONPATH=. python src/cli/user.py add-user --username walima --password 1234
